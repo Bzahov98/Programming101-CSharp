@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Week_11_WPF.Properties
+namespace WPF.Properties
 {
 
 
@@ -19,7 +19,7 @@ namespace Week_11_WPF.Properties
 	// class via a tool like ResGen or Visual Studio.
 	// To add or remove a member, edit your .ResX file then rerun ResGen
 	// with the /str option, or rebuild your VS project.
-	[global::System.CodeDom.Compiler.GeneratedCodeAttribute( "System.Resources.Tools.StronglyTypedResourceBuilder", "4.0.0.0" )]
+	[global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "4.0.0.0")]
 	[global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
 	[global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
 	internal class Resources
@@ -29,7 +29,7 @@ namespace Week_11_WPF.Properties
 
 		private static global::System.Globalization.CultureInfo resourceCulture;
 
-		[global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute( "Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode" )]
+		[global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
 		internal Resources()
 		{
 		}
@@ -37,14 +37,14 @@ namespace Week_11_WPF.Properties
 		/// <summary>
 		///   Returns the cached ResourceManager instance used by this class.
 		/// </summary>
-		[global::System.ComponentModel.EditorBrowsableAttribute( global::System.ComponentModel.EditorBrowsableState.Advanced )]
+		[global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
 		internal static global::System.Resources.ResourceManager ResourceManager
 		{
 			get
 			{
-				if ( (resourceMan == null) )
+				if ((resourceMan == null))
 				{
-					global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager( "Week_11_WPF.Properties.Resources", typeof( Resources ).Assembly );
+					global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("WPF.Properties.Resources", typeof(Resources).Assembly);
 					resourceMan = temp;
 				}
 				return resourceMan;
@@ -55,7 +55,7 @@ namespace Week_11_WPF.Properties
 		///   Overrides the current thread's CurrentUICulture property for all
 		///   resource lookups using this strongly typed resource class.
 		/// </summary>
-		[global::System.ComponentModel.EditorBrowsableAttribute( global::System.ComponentModel.EditorBrowsableState.Advanced )]
+		[global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
 		internal static global::System.Globalization.CultureInfo Culture
 		{
 			get

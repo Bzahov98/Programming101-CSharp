@@ -1,0 +1,26 @@
+﻿<ResourceDictionary 
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="clr-namespace:WPF">
+
+    <Style TargetType="Button">
+        <Setter Property="Background" Value="Brown"/>
+        <Setter Property="FontWeight" Value="Bold"/>
+        <!--<Setter Property=/>-->
+        <Setter Property="FontSize" Value="33"/>
+    </Style>
+
+    <Style TargetType="TextBox">
+
+        <Setter Property="Background" Value="DarkGray"/>
+        <Setter Property="Text" Value=""/>
+        <Setter Property="FontSize" Value="23"/>
+        <Setter Property="HorizontalAlignment" Value="Stretch"/>
+        <!--<Setter Property="IsUndoEnabled" Value="True"/>-->
+        <Setter Property="TextWrapping" Value="Wrap"/>
+        <Setter Property="IsEnabled" Value="True"/>
+        <Setter Property="TextAlignment" Value="Justify"/>
+
+    </Style>
+
+</ResourceDictionary>
